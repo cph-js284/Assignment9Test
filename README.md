@@ -1,5 +1,5 @@
 # Assignment9Test
-This is the 9th. assignment for PBA Test soft2019
+This is the 9th. assignment for PBA Test soft2019spring
 
 # What it is
 This is a project that contains stresstests for a server. The Server is a simple server able to send and receive Json along with outputting dynamic html based on the URL.<br>
