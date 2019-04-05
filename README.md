@@ -35,56 +35,56 @@ Id value given:     Expected ID:    Expected Name:      Expected Age:     Expect
 Here is a variaty of screenshots I found the most relevant for documenting the setup, further analysis can be made from inside the Jmeter IDE after the included *\*.jmx* file is loaded.
 
 
-![dynamic1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml.png)
+![dynamic1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml.png)<br>
 *Showing the request contained in the URL*<br>
 <br>
-![da1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert1.png)
+![da1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert1.png)<br>
 *Assert made on the response data*<br>
 <br>
 ![da2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert2.png)
 *Assert made on response code*
 
-![da3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert3.png)
-*Assert made on response header*
-
-![pj](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/PostJson.png)
-*Posting Json data*
-
-![pja1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/PostJson_assert1.png)
-*Assert made on the post json data response (the server mirrors the posted json object back as reponse)*
-
-![rj](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson.png)
-*Requesting Json data*
-
-![rja1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert1.png)
-*Assert made on the response-array (the double '.' is a deep-dive inside the response array)*
-
-![rja2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert2.png)
-*Assert the id values from response array are integers between 1 and 5*
-
-![rja3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert3.png)
-*Assert the name value is text*
-
-![rja4](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert4.png)
-*Assert the age value is int between 0-99*
-
-![csv1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata.png)
-*Extracting data from CSV file - special note here is the 'variable names' field*
-
-![csv2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata_dynamicHtml.png)
-*Constructing the URL using data from CSV file (contense of file above)*
-
-![csv3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata_dynamicHtml_assert1.png)
-*Assert the response data using data from CSV file (contense of file above)*
-
-![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report10.png)
-*Summary report - 10 users*
-
-![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report100.png)
-*Summary report - 100 users*
-
-![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report250.png)
-*Summary report - 250 users*
-
+![da3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert3.png)<br>
+*Assert made on response header*<br>
+<br>
+![pj](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/PostJson.png)<br>
+*Posting Json data*<br>
+<br>
+![pja1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/PostJson_assert1.png)<br>
+*Assert made on the post json data response (the server mirrors the posted json object back as reponse)*<br>
+<br>
+![rj](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson.png)<br>
+*Requesting Json data*<br>
+<br>
+![rja1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert1.png)<br>
+*Assert made on the response-array (the double '.' is a deep-dive inside the response array)*<br>
+<br>
+![rja2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert2.png)<br>
+*Assert the id values from response array are integers between 1 and 5*<br>
+<br>
+![rja3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert3.png)<br>
+*Assert the name value is text*<br>
+<br>
+![rja4](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/ReceiveJson_assert4.png)<br>
+*Assert the age value is int between 0-99*<br>
+<br>
+![csv1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata.png)<br>
+*Extracting data from CSV file - special note here is the 'variable names' field*<br>
+<br>
+![csv2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata_dynamicHtml.png)<br>
+*Constructing the URL using data from CSV file (contense of file above)*<br>
+<br>
+![csv3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/CSVdata_dynamicHtml_assert1.png)<br>
+*Assert the response data using data from CSV file (contense of file above)*<br>
+<br>
+![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report10.png)<br>
+*Summary report - 10 users*<br>
+<br>
+![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report100.png)<br>
+*Summary report - 100 users*<br>
+<br>
+![s1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/report250.png)<br>
+*Summary report - 250 users*<br>
+<br>
 *Notice the avg. response time goes down for the 100 and 250 users - likely due to response being cached on server*
 
