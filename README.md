@@ -151,6 +151,6 @@ I did a
 ```
 mvn clean verify >> verifylog.txt
 ```
-Resulting in the verifylog.txt file contained in this repo - this log documents the successful verification and testing of the maven project executing the jmeter tests
+Resulting in the [verifylog.txt](https://github.com/cph-js284/Assignment9Test/blob/master/mvnjmeter/verifylog.txt) (inside the mvnjmeter folder) file contained in this repo - this log documents the successful verification and testing of the maven project executing the jmeter tests
 
 
