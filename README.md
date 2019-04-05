@@ -7,7 +7,8 @@ The server is run on a droplet on Digital Ocean and is configured as NignX sitti
 <br>
 <b>NB: the droplet will be destroyed after the review periode</b></br>
 <br>
-This project also contains a *\*.jmx* file that has all the Jmeter tests.
+This project also contains a *\*.jmx* file that has all the Jmeter tests.<br>
+The folder *mvnjmeter* contains a java maven project that executes the jmeter tests (besides these tests the project is an empty template)
 
 # Setup
 1) clone the repo
@@ -88,3 +89,69 @@ Here is a variaty of screenshots I found the most relevant for documenting the s
 <br>
 *Notice the avg. response time goes down for the 100 and 250 users - likely due to response being cached on server*
 
+# Maven project using jmeter
+*A lot of files downloaded for this one*<br>
+
+the POM.xml file from the project:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>js284</groupId>
+  <artifactId>mvnjmeter</artifactId>
+  <packaging>jar</packaging>
+  <version>1</version>
+  <name>mvnjmeter</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+     <plugins>
+        <plugin>
+            <groupId>com.lazerycode.jmeter</groupId>
+            <artifactId>jmeter-maven-plugin</artifactId>
+            <version>2.9.0</version>
+            <executions>
+                <execution>
+                    <id>jmeter-tests</id>
+                    <goals>
+                        <goal>jmeter</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+</project>
+```
+Besides the POM-file a folder called 'jmeter' was created in src/test/ this folder is scanned for *\*.jmx* files durring mvn verify
+To execute the jmeter tests:<br>
+*Beaware this will take more than 30 secs. due to the jmeter tests alone taking 30 secs.*
+```
+mvn clean verify
+```
+I did a 
+```
+mvn clean verify >> verifylog.txt
+```
+Resulting in the [verifylog.txt](https://github.com/cph-js284/Assignment9Test/blob/master/mvnjmeter/verifylog.txt) (inside the mvnjmeter folder) file contained in this repo - this log documents the successful verification and testing of the maven project executing the jmeter tests
+
+# Blazemeter
+I was not sure how exactly to document the Blazemeter test/executing, so I just added some more screenshots; showing 50 users, running for 20 mins. from location: Japan.
