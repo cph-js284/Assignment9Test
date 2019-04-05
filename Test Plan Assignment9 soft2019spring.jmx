@@ -48,6 +48,7 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-2141229754">ID : 1</stringProp>
               <stringProp name="203343594">Name : Adam</stringProp>
+              <stringProp name="1459977864">Age : 23</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
