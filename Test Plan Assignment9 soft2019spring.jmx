@@ -322,7 +322,7 @@
         </HTTPSamplerProxy>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-            <stringProp name="filename">C:/dev/javaprojs/Assignment9Test/TestData/testdata.csv</stringProp>
+            <stringProp name="filename">TestData/testdata.csv</stringProp>
             <stringProp name="fileEncoding">UTF-8</stringProp>
             <stringProp name="variableNames">id,exid,exname,exage,exmsg</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
@@ -381,7 +381,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\dev\javaprojs\Assignment9Test\ReportData\ResultTree_10U_10S.csv</stringProp>
+          <stringProp name="filename">ReportData\ResultTree_10U_10S.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
@@ -806,7 +806,7 @@
         </HTTPSamplerProxy>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-            <stringProp name="filename">C:/dev/javaprojs/Assignment9Test/TestData/testdata.csv</stringProp>
+            <stringProp name="filename">TestData/testdata.csv</stringProp>
             <stringProp name="fileEncoding">UTF-8</stringProp>
             <stringProp name="variableNames">id,exid,exname,exage,exmsg</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
@@ -865,7 +865,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\dev\javaprojs\Assignment9Test\ReportData\ResultTree_100U_10S.csv</stringProp>
+          <stringProp name="filename">ReportData\ResultTree_100U_10S.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
@@ -1290,7 +1290,7 @@
         </HTTPSamplerProxy>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-            <stringProp name="filename">C:/dev/javaprojs/Assignment9Test/TestData/testdata.csv</stringProp>
+            <stringProp name="filename">TestData/testdata.csv</stringProp>
             <stringProp name="fileEncoding">UTF-8</stringProp>
             <stringProp name="variableNames">id,exid,exname,exage,exmsg</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
@@ -1349,7 +1349,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\dev\javaprojs\Assignment9Test\ReportData\ResultTree_250U_10S.csv</stringProp>
+          <stringProp name="filename">ReportData\ResultTree_250U_10S.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">

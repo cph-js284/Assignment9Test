@@ -1,0 +1,91 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< js284:mvnjmeter >---------------------------
+[INFO] Building mvnjmeter 1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mvnjmeter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\dev\java\Assignment9Test\mvnjmeter\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ mvnjmeter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mvnjmeter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\dev\java\Assignment9Test\mvnjmeter\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mvnjmeter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mvnjmeter ---
+[INFO] Surefire report directory: C:\dev\java\Assignment9Test\mvnjmeter\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running js284.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ mvnjmeter ---
+[INFO] 
+[INFO] >>> jmeter-maven-plugin:2.9.0:jmeter (jmeter-tests) > :configure @ mvnjmeter >>>
+[INFO] 
+[INFO] --- jmeter-maven-plugin:2.9.0:configure (configure) @ mvnjmeter ---
+[INFO]  
+[INFO] -------------------------------------------------------
+[INFO] C O N F I G U R I N G    J M E T E R
+[INFO] -------------------------------------------------------
+[INFO]  
+[INFO] Building JMeter directory structure...
+[INFO] Configuring JMeter artifacts...
+[INFO] Populating JMeter directory...
+[INFO] Copying extensions to JMeter lib/ext directory C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\lib\ext with downloadExtensionDependencies set to true...
+[INFO] Copying JUnit libraries to JMeter junit lib directory C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\lib\junit with downloadLibraryDependencies set to true...
+[INFO] Copying test libraries to JMeter lib directory C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\lib with downloadLibraryDependencies set to true...
+[INFO] Configuring JMeter properties...
+[INFO] Generating JSON Test config...
+[INFO] 
+[INFO] <<< jmeter-maven-plugin:2.9.0:jmeter (jmeter-tests) < :configure @ mvnjmeter <<<
+[INFO] 
+[INFO] 
+[INFO] --- jmeter-maven-plugin:2.9.0:jmeter (jmeter-tests) @ mvnjmeter ---
+[INFO]  
+[INFO] -------------------------------------------------------
+[INFO]  P E R F O R M A N C E    T E S T S
+[INFO] -------------------------------------------------------
+[INFO]  
+[INFO] %s already exists!, deleting file in preparation for new test run...
+[INFO] Executing test: TestPlanAssignment9soft2019spring.jmx
+[INFO] Arguments for forked JMeter JVM: [java, -Xms512M, -Xmx512M, -Djava.awt.headless=true, -jar, ApacheJMeter-5.1.1.jar, -d, C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter, -j, C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\logs\TestPlanAssignment9soft2019spring.jmx.log, -l, C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\results\20190405-TestPlanAssignment9soft2019spring.csv, -n, -t, C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\testFiles\TestPlanAssignment9soft2019spring.jmx, -Dsun.net.http.allowRestrictedHeaders, true]
+[INFO]  
+[INFO] WARNING: An illegal reflective access operation has occurred
+[INFO] WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/C:/dev/java/Assignment9Test/mvnjmeter/target/jmeter/lib/xstream-1.4.11.jar) to field java.util.TreeMap.comparator
+[INFO] WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+[INFO] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[INFO] WARNING: All illegal access operations will be denied in a future release
+[INFO] Creating summariser <summary>
+[INFO] Created the tree successfully using C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\testFiles\TestPlanAssignment9soft2019spring.jmx
+[INFO] Starting the test @ Fri Apr 05 10:52:27 CEST 2019 (1554454347031)
+[INFO] Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+[INFO] Warning: Nashorn engine is planned to be removed from a future JDK release
+[INFO] summary +     13 in 00:00:03 =    4,0/s Avg:    47 Min:    31 Max:   118 Err:     0 (0,00%) Active: 1 Started: 4 Finished: 3
+[INFO] summary +   1427 in 00:00:26 =   54,1/s Avg:    43 Min:    27 Max:   141 Err:     0 (0,00%) Active: 0 Started: 360 Finished: 360
+[INFO] summary =   1440 in 00:00:30 =   48,7/s Avg:    43 Min:    27 Max:   141 Err:     0 (0,00%)
+[INFO] Tidying up ...    @ Fri Apr 05 10:52:57 CEST 2019 (1554454377107)
+[INFO] ... end of run
+[INFO] Completed Test: C:\dev\java\Assignment9Test\mvnjmeter\target\jmeter\testFiles\TestPlanAssignment9soft2019spring.jmx
+[INFO]  
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.675 s
+[INFO] Finished at: 2019-04-05T10:52:57+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Shutdown detected, destroying JMeter process...
+[INFO]  
