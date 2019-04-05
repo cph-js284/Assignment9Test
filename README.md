@@ -153,4 +153,5 @@ mvn clean verify >> verifylog.txt
 ```
 Resulting in the [verifylog.txt](https://github.com/cph-js284/Assignment9Test/blob/master/mvnjmeter/verifylog.txt) (inside the mvnjmeter folder) file contained in this repo - this log documents the successful verification and testing of the maven project executing the jmeter tests
 
-
+# Blazemeter
+I was not sure how exactly to document the Blazemeter test/executing, so I just added some more screenshots; showing 50 users, running for 20 mins. from location: Japan.
