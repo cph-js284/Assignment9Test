@@ -41,9 +41,9 @@ Here is a variaty of screenshots I found the most relevant for documenting the s
 ![da1](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert1.png)<br>
 *Assert made on the response data*<br>
 <br>
-![da2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert2.png)
-*Assert made on response code*
-
+![da2](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert2.png)<br>
+*Assert made on response code*<br>
+<br>
 ![da3](https://github.com/cph-js284/Assignment9Test/blob/master/Screenshots/DynamicHtml_assert3.png)<br>
 *Assert made on response header*<br>
 <br>
